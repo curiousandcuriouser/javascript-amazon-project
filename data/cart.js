@@ -34,6 +34,7 @@ export function removeFromCart(productId) {
     if (cartItem.productId !== productId) {
       newCart.push(cartItem);
     }
+    
   })
 
   cart = newCart;
